@@ -1,0 +1,44 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/enoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee No"/>
+
+    <EditText
+        android:id="@+id/enameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enoEditText"
+        android:hint="Employee Name"/>
+
+    <EditText
+        android:id="@+id/designationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enameEditText"
+        android:hint="Designation"/>
+
+    <EditText
+        android:id="@+id/salaryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/designationEditText"
+        android:hint="Salary"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/salaryEditText"
+        android:layout_centerHorizontal="true"
+        android:text="Add Employee"/>
+
+</RelativeLayout>
+
